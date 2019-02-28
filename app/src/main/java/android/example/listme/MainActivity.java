@@ -1,12 +1,14 @@
 package android.example.listme;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+
+public class MainActivity extends Activity {
     TimePicker tp;
     TextView tv;
     TimePicker.OnTimeChangedListener listener;
